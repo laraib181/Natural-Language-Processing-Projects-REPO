@@ -1,12 +1,13 @@
 # Movies Genre Classifier
 
 ### Overview
-The **Movies Genre Classifier** is an NLP-based machine learning project designed to categorize movies into genres using textual descriptions. The project highlights best practices in text preprocessing, feature extraction, and classification using established machine learning techniques.
+The **Movies Genre Classifier** is an NLP-based machine learning project designed to categorize movies into genres using textual descriptions. It also includes a Gradio-powered interface to make real-time predictions directly from user input.
 
 ### Features
 - Cleans and processes raw text data.
 - Applies Bag of Words and TF-IDF to extract features from text.
 - Trains a Multinomial Naive Bayes classifier for genre prediction.
+- Provides a Gradio interface for live predictions.
 - Evaluates model performance with visual results.
 
 ### Tools & Libraries
@@ -15,6 +16,7 @@ The **Movies Genre Classifier** is an NLP-based machine learning project designe
 - **Scikit-learn** – Machine learning and vectorization techniques.
 - **Matplotlib & Seaborn** – Visual representation of data and results.
 - **NLTK** – Natural Language Processing toolkit for text cleaning and tokenization.
+- **Gradio** – Interactive interface for model predictions.
 
 ### Techniques & Methodologies
 1. **Data Preprocessing**
@@ -30,6 +32,9 @@ The **Movies Genre Classifier** is an NLP-based machine learning project designe
 3. **Modeling**
    - Multinomial Naive Bayes (MultinomialNB) is used for text classification due to its simplicity and efficiency with high-dimensional data.
 
+4. **Gradio Interface**
+   - Provides a lightweight web app where users can input a movie description and get predicted genres instantly.
+
 ### Dataset
 - Dataset includes movie descriptions and scripts.
 - Cleaned and processed to remove noise and improve accuracy.
@@ -42,13 +47,17 @@ cd movies-genre-classifier
 pip install -r requirements.txt
 python main.py
 ```
+To launch Gradio interface:
+```bash
+python app.py
+```
 
 ### Results
 - Visual insights include genre distribution plots and classification accuracy.
 - Provides a baseline accuracy for future improvements.
 
 ### Conclusion
-The project successfully demonstrates how NLP combined with machine learning can classify movies into genres. It serves as a practical application of BoW, TF-IDF, and Multinomial Naive Bayes in real-world text classification problems.
+The project successfully demonstrates how NLP combined with machine learning can classify movies into genres. The integration of Gradio adds interactivity, making it easier to test and deploy the model in real-world scenarios.
 
 ### Future Improvements & Limitations
 - **Limitations**:
@@ -59,3 +68,4 @@ The project successfully demonstrates how NLP combined with machine learning can
   - Utilize word embeddings for richer semantic representation.
   - Experiment with ensemble techniques for improved accuracy.
   - Expand the dataset to include multi-genre classification scenarios.
+  - Enhance Gradio interface with better UI/UX design and cloud deployment options.
