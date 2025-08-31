@@ -119,15 +119,7 @@ Visualizations such as **word clouds** and **bar charts** provide deeper insight
 
 ---
 
-## 🖼️ Sample Outputs  
 
-### Word Cloud Example  
-![Word Cloud Example](https://raw.githubusercontent.com/amueller/word_cloud/master/examples/wordcloud.png)  
-
-### Bar Chart Example  
-![Bar Chart Example](https://matplotlib.org/stable/_images/sphx_glr_bar_label_demo_001.png)  
-
----
 
 ## ✅ Conclusion  
 This project demonstrates how **LDA** and **NMF** can uncover hidden structures in large text corpora.  
