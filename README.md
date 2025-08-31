@@ -43,7 +43,7 @@ This repository contains the following projects:
 - **Tools**: Python, Scikit-learn, TensorFlow  
 
 ### 📑 6. Topic Modeling
-- **Approach**: LDA with pyLDAvis visualization  
+- **Approach**: LDA with Wordcloud visualization  
 - **Tools**: Python, Gensim, Scikit-learn  
 
 ## 📌 Final Notes
